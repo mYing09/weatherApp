@@ -1,0 +1,227 @@
+/* 重置浏览器默认样式 */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    margin: 0 auto;
+    font-size: 16px;
+    background: url(../img/pic.jpeg) no-repeat center center;
+    background-size: cover;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+/* 预设浏览器样式 */
+.auto-img{
+    width: 100%;
+    display: block;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+html,body,.weather{
+    height: 100%;
+}
+.nav{
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+.scroll{
+	overflow-y: auto;
+	position: relative;
+	z-index: 1;
+	height: calc(100% - 24px - .44rem);
+}
+.system-nav{
+    height: 24px;
+    background: rgba(255,255,255,.3);
+}
+.weather-nav{
+    height: .44rem;
+    background-color: rgba(255,255,255,.3);
+    padding: 0 .1rem;
+}
+.location-icon{
+    width: .2rem;
+    height: .2rem;
+    margin-top: .12rem;
+    background: url(../img/location.png) no-repeat center center;
+    background-size: cover;
+}
+.location-city{
+    width: .8rem;
+    font-size: .16rem;
+    line-height: .44rem;
+    margin-left: .1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #fff;
+}
+.search-box{
+    width: calc(100% - 1.58rem);
+    height: .28rem;
+    margin-top: .08rem;
+    background-image: linear-gradient(to right,rgba(255,255,255,.2) 0%,rgba(255,255,255,.6) 100%);
+    margin-left: .2rem;
+    border-radius: .14rem;
+    padding-left: .14rem;
+    padding-right: .14rem;
+
+}
+.search-inp{
+    display: block;
+    width: calc(100% - .2rem);
+    height: .28rem;
+    color: #fff;
+}
+.search-inp::-webkit-input-placeholder{
+	color: rgba(255,255,255,.8);
+}
+.search-icon{
+    width: .2rem;
+    height: .2rem;
+    margin-top: .04rem;
+    background: url(../img/search.png) no-repeat center center;
+    background-size: cover;
+}
+.current-weather{
+	margin: .3rem;
+	padding: .3rem;
+	background: rgba(255,255,255,.2);
+	border-radius: .15rem;
+	color: #fff;
+	box-shadow: 0 0 16px 3px rgba(255,255,255,.5) inset;
+}
+.date{
+	margin-right: .3rem;
+}
+.tem-box{
+	margin: .15rem 0 0;
+	position: relative;
+}
+.tem{
+	font-size: .6rem;
+}
+.tem-sym{
+	font-size: .3rem;
+	margin-left: .05rem;
+}
+.air_level{
+	position: absolute;
+	bottom: .1rem;
+	left: .8rem;
+}
+.wea-icon{
+	background: url(../img/qing.png) no-repeat center center;
+	width: .6rem;
+	height: .6rem;
+	background-size: contain;
+	margin-top: .05rem;
+}
+.tems{
+	font-size: .14rem;
+	margin-bottom: .3rem;
+}
+.humidity,.win_speed{
+	margin-left: .2rem;
+}
+.hour-box{
+	background: rgba(255,255,255,.2);
+	color: #fff;
+}
+.hour-word{
+	border-bottom: 1px solid rgba(255,255,255,.1);
+	line-height: .4rem;
+	font-size: .18rem;
+	padding: 0 .1rem;
+	height: .4rem;
+}
+.hour-list{
+	padding: .1rem;
+	overflow-x: auto;
+	text-align: center;
+}
+.hour-list>ul{
+	width: 28.8rem;
+}
+.hour-list>ul>li{
+	width: 1.2rem;
+	float: left;
+}
+.hour-list>ul>li>div{
+	margin-bottom: .1rem;
+}
+.hour-list>ul>li>div:last-child{
+	margin-bottom: 0;
+}
+.hour-icon{
+	background: url(../img/qing.png) no-repeat center center;
+	width: .2rem;
+	height: .2rem;
+	background-size: contain;
+	margin: 0 auto;
+}
+.future-box{
+	color: #fff;
+	margin-top: .3rem;
+	background: rgba(255,255,255,.2);
+}
+.future-list{
+	padding: .1rem;
+}
+.future-list>ul>li{
+	padding: .2rem 0;
+}
+.future-list>ul>li>span{
+	float: left;
+}
+.future-icon{
+	background: url(../img/qing.png) no-repeat center center;
+	width: calc(100% - 33.3% - 39%);
+	background-size: .2rem .2rem;
+	height: .2rem;
+}
+.f-tem{
+	text-align: center;
+	width: 33.3%;
+}
+.f-date{
+	width: 39%;
+}
+.words{
+	color: #fff;
+	padding: 0 .32rem .25rem;
+	line-height: .3rem;
+}
+.tips{
+	background: url(../img/tips.png) no-repeat;
+	height: .3rem;
+	background-position-y: center;
+	background-size: .25rem .25rem;
+	padding-left: .3rem;
+	font-size: .18rem;
+	margin-bottom: .05rem;
+}
+.air_tips{
+	font-size: .16rem;
+}

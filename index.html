@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>枝丫天气</title>
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+
+	<body>
+		<div class="weather">
+			<div class="nav">
+				<div class="system-nav"></div>
+				<div class="weather-box">
+					<div class="weather-nav">
+						<div class="fl">
+							<span class="fl location-icon"></span>
+							<span class="fl location-city"></span>
+						</div>
+						<div class="fl search-box">
+							<input class="search-inp fl" type="text" autocomplete="off" placeholder="请输入城市，如：广州">
+							<div class="search-icon fl"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="scroll">
+				<div class="current-weather">
+					<div class="clearfix">
+						<span class="fl date"></span>
+						<span class="fl week"></span>
+					</div>
+					<div class="clearfix tem-box">
+						<div class="fl clearfix">
+							<span class="fl tem"></span>
+							<span class="fl tem-sym">℃</span>
+						</div>
+						<div class="air_level"></div>
+						<div class="fr wea-icon"></div>
+					</div>
+					<div class="tems">
+						<span class="tem1"></span>℃
+						/
+						<span class="tem2"></span>℃
+					</div>
+					<div class="weather-win clearfix">
+						<div class="win fl"></div>
+						<div class="win_speed fl"></div>
+						<div class="humidity fl"></div>
+					</div>
+				</div>
+				<div class="words">
+					<p class="tips">温馨提示：</p>
+					<p class="air_tips"></p>
+				</div>
+				<div class="hour-box">
+					<div class="hour-word">24小时天气</div>
+					<div class="hour-list">
+						<ul class="clearfix hour-wea">
+							
+						</ul>
+					</div>
+				</div>
+				<div class="future-box">
+					<div class="hour-word">未来6天天气</div>
+					<div class="future-list">
+						<ul class="future-wea">
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/rem.js"></script>
+		<script src="js/jquery-3.4.1.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+
+</html>
